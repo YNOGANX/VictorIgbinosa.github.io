@@ -1,0 +1,253 @@
+.cup{ color: red;
+    animation:shake 1s infinite;
+}
+@keyframes shake {
+    0%{
+         transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }    50% {
+transform: translateX(10px);
+        }
+        75%{
+            transform: translateX(-10px);
+        }
+        100%{
+            transform: translateX(0);
+        }
+    
+}
+
+.rop{color: white;
+
+}
+.rop{
+    animation: slide-in 5s forwards;
+}
+@keyframes slide-in {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+body {
+    background-image: url(istockphoto-1414981473-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+/* Set a full-width container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Create a visually appealing background */
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the section headings */
+  h2 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Create a grid layout */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  /* Style the grid items */
+  .grid-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add hover effect to grid items */
+  .grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the buttons */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Add media query for responsive design */
+  @media screen and (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .arrow {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #333; /* Adjust the color as desired */
+  }
+  
+  /* To create a right-pointing arrow */
+  .arrow-right {
+    transform: rotate(20deg);
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label, input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #070707;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  body {
+    color: white;
+  }
+  /* Desktop styles */
+/* Add your desktop-specific styles here */
+
+/* Tablet styles */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Add your tablet-specific styles here */
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+  /* Add your mobile-specific styles here */
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+    
+    
+         

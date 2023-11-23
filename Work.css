@@ -1,0 +1,29 @@
+.top{color: brown;
+
+}
+body {
+    background-image: url(download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.sup {
+    animation: pulse 5s ease-in-out infinite;
+    color: red;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+body{
+    color: white;
+}
